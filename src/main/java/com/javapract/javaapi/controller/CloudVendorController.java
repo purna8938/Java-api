@@ -29,7 +29,7 @@ public class CloudVendorController {
     @PostMapping
     public String createCloudVendor(@RequestBody CloudVendor cloudVendor) {
         cloudVendorService.CreateCloudVendor(cloudVendor);
-        return "succesfully created data";
+        return "succesfully created";
     }
 
     @PutMapping
